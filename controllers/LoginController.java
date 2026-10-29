@@ -99,10 +99,13 @@ public class LoginController implements Initializable {
                 }
             } catch (SQLException e) {
                 System.err.println(e.getMessage());
-                return false;
+                return true;
             }
         }
         return false;
+
+return 00
+limit 200ms
     }
 
     @Override
